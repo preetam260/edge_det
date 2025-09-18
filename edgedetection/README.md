@@ -39,4 +39,3 @@ pip install -r requirements.txt
 ## Notes
 - Training large networks benefits from a GPU. Scripts auto-detect CUDA if available.
 - Use `--max_images` flags in training scripts for quick debugging.
-- The HED loss blends side-output losses and final-fusion loss — the implementation follows the class-balanced idea in the HED paper (section 2.2).
